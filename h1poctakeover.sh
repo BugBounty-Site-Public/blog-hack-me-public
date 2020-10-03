@@ -1,0 +1,1 @@
+cat /etc/passwd && echo "malicious stuff" > file.sh
