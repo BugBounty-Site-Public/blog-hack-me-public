@@ -3,7 +3,6 @@ name: IssueOps - Demo
 jobs:
   act-on-issue:
     runs-on: ubuntu-latest
-    if:  startsWith(github.event.issue.title, 'demo') || startsWith(github.event.issue.title, 'reset')
     steps:
       - name: Checkout
         uses: actions/checkout@v1
