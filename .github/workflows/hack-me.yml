@@ -1,6 +1,4 @@
-on:
-  issues:
-    types: [opened]
+on: issue_comment
 name: IssueOps - Demo
 jobs:
   act-on-issue:
